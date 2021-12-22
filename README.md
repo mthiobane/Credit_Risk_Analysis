@@ -39,14 +39,18 @@ Undersampling is another technique to address class imbalance. Undersampling tak
 The sensitivity of the high risk is around 59% due to the low number of false negative. This time the sensitivity is around 43% for the low-risk profile because the false negative has increased. 
 * The F1 score is very low for the high-risk around 1% because the precision of this model is very low for 1% and the sensibility around 59%.
 Regarding the low-risk the F1 score is around 60% because the precision is very high 100% and sensibility have an acceptable score of 43%
-Combination (Over and Under) Sampling
+![Undersampling](https://user-images.githubusercontent.com/89410157/147135728-e1d8886c-2051-4d8c-9633-70c9fe89cfdd.png)
+
+## Combination (Over and Under) Sampling
+
 SMOTEENN combines the SMOTE and Edited Nearest Neighbors (ENN) algorithms.
-* The balanced accuracy score is 50.03% which is not very high
+* The balanced accuracy score is 51.03% which is not very high
 * The precision for the high-risk profile is very low for 1%. The precision is around 100% for the low-risk profile because the True negative is high.
 * The sensitivity of the high risk is around 70% due to the low number of false negative. This time the sensitivity is around 57% for the low-risk profile because the false negative has increased. 
 * The F1 score is very low for the high-risk around 2% because the precision of this model is very low for 1% and the sensibility around 70%.
 Regarding the low-risk the F1 score is around 73% because the precision is very high 100% and sensibility have an acceptable score of 57%
-![Undersampling](https://user-images.githubusercontent.com/89410157/147039929-3c56af11-300e-4f83-9fff-b4b4d68dc237.png)
+![Combination (Over and Under) Sampling SMOTEENN](https://user-images.githubusercontent.com/89410157/147135550-c2c17ac9-8b04-444e-987c-658b8cc3c47f.png)
+
 
 ## Ensemble Learners 
 ### Balanced Random Forest Classifier
